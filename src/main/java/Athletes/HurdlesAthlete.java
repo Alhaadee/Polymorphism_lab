@@ -12,4 +12,9 @@ public class HurdlesAthlete extends Sprinter{
     public String jump(){
         return String.format("%s is jumping",name);
     }
+
+    public String train(){
+        return String.format("%s is training his jumping skills",name);
+    }
+
 }

@@ -20,4 +20,11 @@ public class SprinterTest {
         String expected = "james is running";
         assertEquals(expected,actual);
     }
+
+    @Test
+    public void canTrain(){
+        String actual = sprinter.train();
+        String expected = "james is training at the track";
+        assertEquals(expected,actual);
+    }
 }

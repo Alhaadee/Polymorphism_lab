@@ -13,15 +13,20 @@ public abstract class Athlete {
         this.age = age;
     }
 
+
+
+//    METHOD OVERLOADING
     public String winMedal(){
         return String.format("%s won a medal!",this.name);
     }
-
-    public String train(){
-        return String.format("%s is training",name);
+    public String winMedal(String finishingPosition){
+        return  String.format("%s finished with a %s medal!",name,finishingPosition);
     }
 
-    public String train(String location){
-        return  String.format("%s is training at the %s",name,location);
-    }
+//     ABSTRACT METHOD EXAMPLE BELOW
+    public abstract String train();
+
+
 }
+
+

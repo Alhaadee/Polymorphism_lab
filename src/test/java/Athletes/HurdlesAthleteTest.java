@@ -20,4 +20,11 @@ public class HurdlesAthleteTest {
         String expected = "james is jumping";
         assertEquals(expected,actual);
     }
+
+    @Test
+    public void canTrain(){
+        String actual = hurdlesAthlete.train();
+        String expected = "james is training his jumping skills";
+        assertEquals(expected,actual);
+    }
 }

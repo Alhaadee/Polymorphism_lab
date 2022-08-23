@@ -15,7 +15,6 @@ public class CyclistTest {
     }
 
 
-//    Testing the superclass methods of Athlete
     @Test
     public void canRide(){
         String actual = cyclist.ride();
@@ -23,24 +22,26 @@ public class CyclistTest {
         assertEquals(expected,actual);
     }
 
+
     @Test
     public void canTrain(){
         String actual = cyclist.train();
-        String expected = "john is training";
+        String  expected = "john is training with his bmx bike";
         assertEquals(expected,actual);
     }
 
-    @Test
-    public void canTrain__With_Argument(){
-        String actual = cyclist.train("velodrome");
-        String  expected = "john is training at the velodrome";
-        assertEquals(expected,actual);
-    }
-
+//    testing the superclass methods of athlete
     @Test
     public void canWinMedal(){
         String actual = cyclist.winMedal();
         String expected = "john won a medal!";
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void canWinMedal__With__Argument(){
+        String actual = cyclist.winMedal("gold");
+        String expected = "john finished with a gold medal!";
         assertEquals(expected,actual);
     }
 }

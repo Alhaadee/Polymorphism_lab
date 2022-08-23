@@ -20,4 +20,11 @@ public class RelayAthleteTest {
         String expected = "john is passing the baton to the next teammate";
         assertEquals(expected,actual);
     }
+
+    @Test
+    public void canTrain(){
+        String actual = relayAthlete.train();
+        String expected = "john is training with teammates";
+        assertEquals(expected,actual);
+    }
 }

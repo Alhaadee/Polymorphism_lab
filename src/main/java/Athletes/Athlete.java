@@ -4,12 +4,12 @@ public abstract class Athlete {
 
     private int age;
     protected String name;
-    private String nationality;
+    private String originCountry;
 
 
-    public Athlete(String name, String nationality, int age){
+    public Athlete(String name, String originCountry, int age){
         this.name = name;
-        this.nationality = nationality;
+        this.originCountry = originCountry;
         this.age = age;
     }
 

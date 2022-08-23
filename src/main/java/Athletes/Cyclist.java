@@ -5,8 +5,8 @@ import interfaces.IWearShoes;
 public class Cyclist extends Athlete implements IWearShoes {
     private String bikeType;
 
-    public  Cyclist(String bikeType, int age, String nationality, String name){
-        super(name, nationality, age);
+    public  Cyclist(String bikeType, int age, String originCountry, String name){
+        super(name, originCountry, age);
         this.bikeType = bikeType;
     }
 

@@ -6,8 +6,8 @@ public class Sprinter extends  Athlete implements IWearShoes {
 
     private int shoeSize;
 
-    public Sprinter(int shoeSize, String name, String nationality, int age){
-        super(name, nationality, age);
+    public Sprinter(int shoeSize, String name, String originCountry, int age){
+        super(name, originCountry, age);
         this.shoeSize = shoeSize;
     }
 

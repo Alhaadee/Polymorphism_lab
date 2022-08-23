@@ -3,8 +3,8 @@ package Athletes;
 public class Swimmer extends Athlete{
     private boolean hasGoggles;
 
-    public Swimmer(boolean hasGoggles, int age, String name,String nationality ){
-        super( name, nationality, age);
+    public Swimmer(boolean hasGoggles, int age, String name,String originCountry ){
+        super( name, originCountry, age);
         this.hasGoggles = hasGoggles;
     }
 

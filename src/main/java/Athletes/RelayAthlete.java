@@ -3,8 +3,8 @@ package Athletes;
 public class RelayAthlete extends  Sprinter{
     private int startPosition;
 
-    public RelayAthlete(int startPosition, int age, int shoeSize, String name, String nationality){
-        super(shoeSize, name, nationality, age);
+    public RelayAthlete(int startPosition, int age, int shoeSize, String name, String originCountry){
+        super(shoeSize, name, originCountry, age);
         this.startPosition = startPosition;
     }
 

@@ -10,6 +10,6 @@ public class HurdlesAthlete extends Sprinter{
     }
 
     public String jump(){
-        return "I am jumping";
+        return String.format("%s is jumping",name);
     }
 }

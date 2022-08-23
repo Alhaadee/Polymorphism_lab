@@ -3,7 +3,7 @@ package Athletes;
 public abstract class Athlete {
 
     private int age;
-    private String name;
+    protected String name;
     private String nationality;
 
 
@@ -14,10 +14,14 @@ public abstract class Athlete {
     }
 
     public String winMedal(){
-        return String.format("My name is %s, and I won a medal!",this.name);
+        return String.format("%s won a medal!",this.name);
     }
 
     public String train(){
-        return "I am training";
+        return String.format("%s is training",name);
+    }
+
+    public String train(String location){
+        return  String.format("%s is training at the %s",name,location);
     }
 }

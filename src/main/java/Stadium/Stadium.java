@@ -20,4 +20,26 @@ public class Stadium {
     public void addAthlete(Athlete athlete){
         athletes.add(athlete);
     }
+
+    public ArrayList<Athlete> getAthletes(){
+        return athletes;
+    }
+
+    public int getAttendance(){
+        return attendance;
+    }
+
+    public void setAttendance(int attendance){
+        this.attendance = attendance;
+    }
+
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
 }

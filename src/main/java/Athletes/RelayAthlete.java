@@ -9,6 +9,6 @@ public class RelayAthlete extends  Sprinter{
     }
 
     public String passBaton(){
-        return "I am passing the baton";
+        return String.format("%s is passing the baton to the next teammate",name);
     }
 }

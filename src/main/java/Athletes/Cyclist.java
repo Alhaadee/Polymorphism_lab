@@ -10,6 +10,6 @@ public class Cyclist extends Athlete {
 
 
     public String ride(){
-        return "I am cycling!";
+        return String.format("%s is cycling",name);
     }
 }

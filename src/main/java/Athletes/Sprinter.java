@@ -10,6 +10,6 @@ public class Sprinter extends  Athlete{
     }
 
     public String run(){
-        return "I am running!";
+        return String.format("%s is running",name);
     }
 }

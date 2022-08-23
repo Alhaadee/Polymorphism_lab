@@ -10,6 +10,6 @@ public class Swimmer extends Athlete{
 
 
     public String dive(){
-        return "I dived into the pool!";
+        return String.format("%s dived into the pool",this.name);
     }
 }
